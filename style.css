@@ -1,41 +1,49 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
+        .intro {
+            display: flex;
+            align-items: center;
+            margin: 50px 0;
+        }
 
-main {
-    padding: 2rem;
-}
+        .intro-text {
+            font-size: 1.5rem;
+            margin-right: 20px;
+        }
 
-section {
-    margin-bottom: 2rem;
-}
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+            color: #666;
+        }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
+        .sections {
+            width: 80%;
+            max-width: 800px;
+        }
 
-a {
-    color: #007bff;
-    text-decoration: none;
-}
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
 
-a:hover {
-    text-decoration: underline;
-}
-
+        .section h2 {
+            margin-top: 0;
+        }
